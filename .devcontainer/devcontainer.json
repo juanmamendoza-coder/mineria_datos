@@ -32,6 +32,13 @@
           "source.fixAll": "explicit",
           "source.organizeImports": "explicit"
         },
+        "jupyter.kernels.filter": [
+          {
+            "path": "${workspaceFolder}/.venv/bin/python",
+            "type": "pythonEnvironment"
+          }
+        ],
+        "notebook.defaultKernel": "mineria-datos",
         "files.exclude": {
           "**/__pycache__": true,
           "**/.ipynb_checkpoints": true,

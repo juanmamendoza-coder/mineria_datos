@@ -21,6 +21,10 @@ fi
 echo "Installing Python dependencies..."
 uv sync --locked
 
+# Register Jupyter kernel
+echo "Registering Jupyter kernel..."
+uv run python -m ipykernel install --user --name mineria-datos --display-name "Python 3.13 (mineria-datos)"
+
 # Install pre-commit hooks
 echo "Installing pre-commit hooks..."
 uv run pre-commit install
