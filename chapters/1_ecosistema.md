@@ -311,26 +311,6 @@ Antes de desplegar un modelo, hazte estas preguntas:
 
 ---
 
-## Conectando con CRISP-DM
-
-Los conceptos de este capítulo no son abstractos: se integran directamente en la metodología **CRISP-DM** (Cross-Industry Standard Process for Data Mining), que estudiaremos en detalle en el próximo capítulo.
-
-- **Comprensión del Negocio** (Fase 1): Aquí es donde traducimos objetivos empresariales en objetivos de minería de datos, considerando el valor económico esperado.
-
-- **Comprensión de Datos** (Fase 2): Evaluamos la calidad, privacidad y posibles sesgos en los datos.
-
-- **Preparación de Datos** (Fase 3): Anonimizamos datos sensibles, balanceamos clases para reducir sesgos.
-
-- **Modelado** (Fase 4): Seleccionamos algoritmos (ML) apropiados para el problema.
-
-- **Evaluación** (Fase 5): No solo evaluamos precisión técnica, sino también impacto financiero y equidad.
-
-- **Despliegue** (Fase 6): Implementamos el modelo con salvaguardas éticas, monitoreo continuo de sesgo, y mecanismos de explicabilidad.
-
-La fase de **Comprensión del Negocio** no es un paso opcional que se completa en 10 minutos. Es el ancla de todo el proceso: sin ella, corremos el riesgo de construir modelos técnicamente sofisticados pero estratégicamente irrelevantes o éticamente problemáticos.
-
----
-
 ## Resumen y Reflexiones
 
 En este capítulo, establecimos tres pilares fundamentales para el curso:
@@ -357,11 +337,3 @@ En este capítulo, establecimos tres pilares fundamentales para el curso:
 **Implicación clave**: Antes de desplegar un modelo, pregúntate: "¿Es justo? ¿Es transparente? ¿Respeta la privacidad?"
 
 ---
-
-### Preparándose para el Siguiente Capítulo
-
-En el próximo capítulo, profundizaremos en la metodología **CRISP-DM**, que nos proporciona un marco estructurado para convertir estos principios en acción. Veremos cómo cada fase del ciclo de vida de un proyecto de minería de datos conecta la comprensión del negocio con la generación de valor tangible.
-
-**Reflexión final**: La minería de datos no es magia. Es un proceso riguroso, estratégico y, cuando se hace bien, transformador. Tu rol como Ingeniero en Negocios es ser el puente entre los datos y las decisiones, entre los algoritmos y el impacto, entre la tecnología y la ética.
-
-Bienvenido al ecosistema de datos. Comencemos a extraer valor.
